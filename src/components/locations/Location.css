@@ -1,0 +1,17 @@
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.location {
+  flex-basis: 28%;
+  margin: .5rem;
+  padding: .5rem;
+  border: solid 2px black;
+  border-radius: 1rem;
+}
+
+.location__name {
+  text-align: center;
+}
